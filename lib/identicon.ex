@@ -44,8 +44,15 @@ defmodule Identicon do
     %Identicon.Image{image | grid: grid}
   end
 
-  def mirror_row([a, b | _rest] = row) do
-    row ++ [b, a]
+  @doc """
+    Returns list of ints representing string input
+
+  ## Examples
+      iex> Identicon.mirror_row([1,2,3])
+      [1,2,3,2,1]
+  """
+  def mirror_row([first, second | _rest] = row) do
+    row ++ [second, first]
   end
 
   def filter_odd_squares(%Identicon.Image{grid: grid} = image) do
