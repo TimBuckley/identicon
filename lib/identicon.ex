@@ -19,7 +19,7 @@ defmodule Identicon do
 
   ## Examples
       iex> Identicon.hash_input("banana")
-      [114, 179, 2, 191, 41, 122, 34, 138, 117, 115, 1, 35, 239, 239, 124, 65]
+      %Identicon.Image{hex: [114, 179, 2, 191, 41, 122, 34, 138, 117, 115, 1, 35, 239, 239, 124, 65]}
   """
   def hash_input(input) do
     hex =
