@@ -1,6 +1,16 @@
 # Identicon
 
-**TODO: Add description**
+Given a username, create an identicon image representation (PNG format).
+
+## Usage
+```sh
+$ iex -S mix
+```
+
+```elixir
+Identicon.main("name here")
+# -> :ok
+```
 
 ## Installation
 
@@ -17,4 +27,3 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
         def application do
           [applications: [:identicon]]
         end
-
