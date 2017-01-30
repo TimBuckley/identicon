@@ -12,6 +12,14 @@ Identicon.main("name here")
 # -> :ok
 ```
 
+### Examples
+#### "banana"
+![banana](banana.png)
+
+
+#### "timbuckley"
+![timbuckley](timbuckley.png)
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
